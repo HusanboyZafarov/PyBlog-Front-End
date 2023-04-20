@@ -31,3 +31,15 @@ window.addEventListener("DOMContentLoaded", () => {
         header_settings_item_mode.firstElementChild.classList.add("fa-moon")
     }
 })
+
+let closer_wrapper = document.querySelector('.closer_wrapper')
+let message = document.querySelector('.message')
+let subscribed_wrapper = document.querySelector(".profile-subscribed_wrapper")
+
+closer_wrapper.addEventListener("click", () => {
+    message.classList.add("closed")
+})
+
+setTimeout(() => {
+    message.classList.add("closed")
+}, 2000)

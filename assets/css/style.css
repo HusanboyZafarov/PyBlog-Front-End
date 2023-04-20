@@ -1690,3 +1690,65 @@ footer {
 .profile-socials_wrapper a img {
     margin-right: 10px;
 }
+
+.message {
+    position: fixed;
+    padding: 20px 30px;
+    top: 100px;
+    right: 4%;
+    background: var(--color-white);
+    box-shadow: var(--local-box-shadow);
+    z-index: 100011;
+    border-radius: 10px;
+    width: 310px;
+}
+
+.message.closed {
+    right: -320px;
+}
+
+.closer_wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.closer_line {
+    width: 25px;
+    height: 4px;
+    background: var(--color-yellow);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.closer_wrapper:hover .closer_line {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.closer_line:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.closer_line:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.message p {
+    font-size: var(--size-text-small);
+}
+
+.message h1 {
+    margin-bottom: 5px;
+    font-family: 'Poppins M';
+    font-weight: normal;
+    color: var(--color-dark);
+}
+
+.message h1 i {
+    color: var(--color-dark);
+}
