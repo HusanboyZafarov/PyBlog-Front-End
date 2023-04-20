@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="pyblog bu Python va dasturlashga oid o’zbek tilidagi blog. Hozirda Python, Javascript, Dasturlash, Veb dasturlash ,Foundation va boshqa turkumlarga va o’nlab teglarga mansub maqolalar saytdan joy olgan.">
+    <meta name="keywords"
+        content="Dasturlash , Blog, Python , Payton, dasturchi, Javascript, maqola, yangilik, dastur,">
+    <meta property="og:title" content="Python va dasturlash blogi">
+    <meta property="og:site_name" content="pyblog.uz">
+    <meta property="og:url" content="https://pyblog.uz">
+    <meta property="og:description"
+        content="pyblog.uz bu python va dasturlashga oid o'zbek tilidagi sifatli maqola , tutoriallar berib boruvchi blog hisoblanadi.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://pyblog-front-end.netlify.app/assets/image/favicon.png">
+
+    <link rel="shortcut icon" href="./assets/image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+
+    <title>Pyblog - Python hamda dasturlash blogi</title>
+</head>
+
+<body>
+    <header>
+        <div class="section-wrapp">
+            <div class="container">
+                <ul class="header_nav_list">
+                    <li class="header_nav_item">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/image/logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="header_nav_item">
+                        <ul class="header_navigate_links">
+                            <li class="header_link">
+                                <a href="./index.html">Bosh sahifa </a>
+                            </li>
+                            <li class="header_link header_dropdown_category">
+                                <p>
+                                    Turkumlar
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </p>
+                            </li>
+                            <li class="header_link header_dropdown_tag">
+                                <p>
+                                    Teglar
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </p>
+                            </li>
+                            <li class="header_link">
+                                <a href="#">Hamkorlik</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="#">Aloqa</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header_nav_item">
+                        <ul class="header_settings_list">
+                            <li class="header_settings_item mobile">
+                                <a href="#">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                </a>
+                            </li>
+                            <li class="header_settings_item search">
+                                <!-- <form action="">
+                                    <input type="text" name="search_q" placeholder="Shu yerga yozasiz...">
+                                </form> -->
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                            <li class="header_settings_item menu mobile">
+                                <i class="fa-solid fa-bars"></i>
+                            </li>
+                            <li class="header_settings_item mode">
+                                <i class="fa-solid fa-moon"></i>
+                            </li>
+                            <li class="header_settings_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                                <!-- <div class="auth_opener">
+                                    <i class="fa-solid fa-user"></i>
+                                </div> -->
+                            </li>
+                        </ul>
+
+                        <!-- <ul class="header_trending_tags_cats">
+
+                            <li class="header_trending_heading">
+                                Ommabop mavzular
+                            </li>
+
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-html5"></i>
+                                    HMTML5
+                                </a>
+                            </li>
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-square-js"></i>
+                                    Javascript
+                                </a>
+                            </li>
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-css3"></i>
+                                    CSS3
+                                </a>
+                            </li>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-python"></i>
+                                    Python
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-mug"></i>
+                                    Dasturlash asoslari
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-gears"></i>
+                                    Back-end
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-node-js"></i>
+                                    NodeJS
+                                </a>
+                            </div>
+                        </ul> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="detail-post">
+        <div class="detail-hero">
+            <div class="section-wrapp">
+                <div class="container">
+                    <div class="detail-post_wrapper">
+                        <h1 class="detail-post_title">
+                            💼 IT'dagi karyera: HR-menejer va rekruter (ishga qabul qiluvchi) lavozimlari
+                        </h1>
+
+                        <div class="detail-save">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+
+                        <ul class="detail-top_info_list">
+                            <li class="detail-top_info_item prog_lang">
+                                <i class="fa-solid fa-mug-saucer"></i>
+                                Umumiy mavzu
+                            </li>
+                            <li>
+                                <ul class="detail-top_info_wrapper">
+                                    <li class="detail-top_info_item date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        Aug 14, 2020
+                                    </li>
+                                    <li class="detail-top_info_item author">
+                                        <a href="#">
+                                            <i class="fa-solid fa-user"></i>
+                                            Bozorov Bozorvoyaka
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="detail-body">
+                            Lorem ipsum dolor sit amet consectetur. Mauris proin feugiat arcu tempus purus. Et nibh
+                            sollicitudin mattis at consectetur. Nibh fringilla aenean nunc tempor malesuada. Tortor
+                            nascetur et ac nunc. Nisl nascetur tristique nisl amet integer eu hendrerit. Neque amet nec
+                            condimentum in nunc lacus in ipsum nisl. Sed consectetur quam imperdiet bibendum consectetur
+                            cursus ultrices. Interdum tellus et quam lacus risus arcu. Tincidunt consectetur porttitor
+                            diam massa neque dictumst.
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur. Mauris proin feugiat arcu tempus purus. Et nibh
+                            sollicitudin mattis at consectetur. Nibh fringilla aenean nunc tempor malesuada. Tortor
+                            nascetur et ac nunc. Nisl nascetur tristique nisl amet integer eu hendrerit. Neque amet nec
+                            condimentum in nunc lacus in ipsum nisl. Sed consectetur quam imperdiet bibendum consectetur
+                            cursus ultrices. Interdum tellus et quam lacus risus arcu. Tincidunt consectetur porttitor
+                            diam massa neque dictumst.
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur. Fringilla senectus aliquam risus eros condimentum
+                            aliquam sed fermentum.
+                            Lorem ipsum dolor sit amet consectetur. Fringilla senectus aliquam risus eros condimentum
+                            aliquam sed fermentum.
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur. Mauris proin feugiat arcu tempus purus. Et nibh
+                            sollicitudin mattis at consectetur. Nibh fringilla aenean nunc tempor malesuada. Tortor
+                            nascetur et ac nunc. Nisl nascetur tristique nisl amet integer eu hendrerit. Neque amet nec
+                            condimentum in nunc lacus in ipsum nisl. Sed consectetur quam imperdiet bibendum consectetur
+                            cursus ultrices. Interdum tellus et quam lacus risus arcu. Tincidunt consectetur porttitor
+                            diam massa neque dictumst.
+                            <br><br><br>
+                            <p>Lorem ipsum</p>
+                            Lorem ipsum dolor sit amet consectetur.
+                            Fringilla senectus aliquam risus eros condimentum aliquam sed fermentum.
+                            Est tincidunt tincidunt morbi feugiat.
+                            Sed ultrices dictumst id sagittis purus phasellus diam habitant.
+                            Eu vulputate sed bibendum sed.
+                            Nulla velit cras consequat scelerisque adipiscing.
+                            <br><br>
+                            Ullamcorper felis ipsum tempor iaculis vulputate leo. Lobortis at tortor ut lectus cursus
+                            lacus. Purus et non viverra sagittis odio nisi dictumst scelerisque. Enim suspendisse
+                            vivamus neque ultricies. Est vitae non cras aliquam. At malesuada odio diam id sagittis.
+                            Integer pulvinar eu nec consectetur adipiscing in. Bibendum fermentum sit tortor ac a
+                            commodo quisque faucibus. Nec nunc cursus turpis semper iaculis tellus lorem dolor.
+                            Vulputate nunc varius velit et facilisis.
+                            Egestas elementum pellentesque nunc mauris vitae viverra. Sed imperdiet in id neque aliquet
+                            nibh vulputate adipiscing. Egestas lacus diam ante id. Nunc purus arcu aliquam dolor vitae
+                            feugiat feugiat tortor. Ut amet justo vulputate sed varius dictumst malesuada. Iaculis
+                            vestibulum non ultricies sed amet.
+                            <br><br>
+
+                            <p>Lorem ipsum</p>
+                            Lorem ipsum dolor sit amet consectetur.
+                            Fringilla senectus aliquam risus eros condimentum aliquam sed fermentum.
+                            Est tincidunt tincidunt morbi feugiat.
+                            Sed ultrices dictumst id sagittis purus phasellus diam habitant.
+                            Eu vulputate sed bibendum sed.
+                            Nulla velit cras consequat scelerisque adipiscing.
+
+                            Adipiscing et ullamcorper mattis vitae porta ut eget. Senectus pellentesque varius ultrices
+                            morbi quis volutpat. Aenean vel vitae non morbi urna eu. Ipsum amet sed neque aliquam sed
+                            eget viverra ut. Sit nulla vitae ultrices dolor morbi eu elit. Netus sed iaculis sapien
+                            tellus amet volutpat leo. Aliquam dui odio ut tincidunt sed nisl cum ante scelerisque. Nunc
+                            egestas massa gravida id sed nisi enim arcu.
+                            Lacinia amet malesuada leo sed purus ipsum. Quam et feugiat purus justo quam gravida.
+                            Consectetur mi ut vulputate bibendum gravida volutpat turpis pulvinar enim. Diam suscipit
+                            penatibus amet sed. Et praesent scelerisque quis scelerisque. Sit lobortis facilisis enim
+                            orci lorem tellus. Potenti venenatis nisi ornare vel.
+                            Iaculis posuere habitasse consectetur et tempor sit viverra nec. Accumsan id posuere platea
+                            id eget molestie amet porttitor. Nisl eget porta turpis amet pellentesque id arcu. Semper id
+                            justo tincidunt diam cras malesuada sed. Nisi nec nullam facilisis viverra enim. Gravida
+                            metus scelerisque massa faucibus morbi eu quam ornare.
+                            Magna fusce in quis sed. Ipsum mollis adipiscing morbi pulvinar quis faucibus. Duis pulvinar
+                            cras tincidunt sem. Feugiat sodales arcu mi id ut est duis malesuada. Lacus praesent nibh
+                            fermentum at a sapien consequat bibendum magna. Viverra non pellentesque risus mi. Nullam in
+                            ut ligula tincidunt vestibulum venenatis nullam. Nec eleifend sodales ultricies egestas
+                            quis. Sit feugiat vitae habitasse blandit. Fringilla amet nisl egestas vitae eget enim.
+                            Pellentesque eget quis nulla etiam nunc vitae tortor interdum sollicitudin. Nisl mauris
+                            gravida amet eget mollis aliquam aliquet. Ridiculus a sit sit mauris aenean curabitur elit
+                            euismod. Pulvinar nullam velit in facilisis amet. Purus aliquam venenatis laoreet tellus
+                            nisl.
+                            <br><br>
+                            Enim ipsum sagittis malesuada placerat hendrerit turpis. Nullam turpis vitae sem urna quis
+                            urna consectetur. Pellentesque nibh in suspendisse in nisl cum amet nunc urna. Mattis mauris
+                            porttitor in in adipiscing in cras. Sed faucibus id laoreet semper ultricies urna et vitae
+                            elementum. Elit quis sodales eu hendrerit amet metus mi purus. Morbi diam tortor lacus sit
+                            porttitor cras aliquet.
+                        </div>
+
+                        <div class="detail-info_list">
+                            <li class="detail-info_item">
+                                <ul class="detail-emoji_list">
+                                    <li class="detail-emoji_item">
+                                        <img src="./assets/image/thumb-up.png" alt="">
+                                        <span>+99</span>
+                                    </li>
+                                    <li class="detail-emoji_item">
+                                        <img src="./assets/image/heart.png" alt="">
+                                        <span>+99</span>
+                                    </li>
+                                    <li class="detail-emoji_item">
+                                        <img src="./assets/image/glasses.png" alt="">
+                                        <span>+99</span>
+                                    </li>
+                                    <li class="detail-emoji_item">
+                                        <img src="./assets/image/fire.png" alt="">
+                                        <span>+99</span>
+                                    </li>
+                                    <li class="detail-emoji_item">
+                                        <img src="./assets/image/dragon.png" alt="">
+                                        <span>+99</span>
+                                    </li>
+                                    <li class="detail-emoji_item">
+                                        <img src="./assets/image/popper.png" alt="">
+                                        <span>+99</span>
+                                    </li>
+                                </ul>
+                                <div class="detail-post_info_wrapper">
+                                    <a href="#" class="detail-post_info_author">
+                                        <i class="fa-solid fa-user"></i>
+                                        Bozorov Bozorvoyaka
+                                    </a>
+                                    <span class="detail-post_info_list">
+                                        <span>
+                                            <i class="fa-solid fa-eye"></i>
+                                            145 marta
+                                        </span>
+                                        <span>
+                                            <i class="fa-solid fa-comments"></i>
+                                            3 marta
+                                        </span>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="detail-info_item">
+                                <h1 class="detail-post_tag_heading">Teglar</h1>
+                                <ul class="detail-tag_list">
+                                    <li class="detail-tag_item"><a href="#"><i class="fa-brands fa-html5"></i> HTML5</a>
+                                    </li>
+                                    <li class="detail-tag_item"><a href="#"><i class="fa-brands fa-square-js"></i>
+                                            Javascript</a></li>
+                                    <li class="detail-tag_item"><a href="#"><i class="fa-brands fa-python"></i>
+                                            Python</a></li>
+                                </ul>
+                                <ul class="detail-share_list">
+                                    <li class="detail-share_item">
+                                        <a href="#">
+                                            <img src="./assets/image/Facebook.png" alt="">
+                                            Facebookda ulashish
+                                        </a>
+                                    </li>
+                                    <li class="detail-share_item">
+                                        <a href="#">
+                                            <img src="./assets/image/telegram.png" alt="">
+                                            Telegramda ulashish
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div class="detail-comments">
+                            <div class="detail-comments_top_info">
+                                <h1>
+                                    Maqolaga bildirilgan fikrlar (3).
+                                </h1>
+                                <i class="fa-solid fa-eye-slash"></i>
+                            </div>
+
+                            <ul class="detail-comment_list">
+                                <li class="detail-comment_item">
+                                    <img src="./assets/image/user-avatar.png" alt="">
+                                </li>
+                                <li class="detail-comment_item">
+                                    <h1 class="detail-comment_author">
+                                        <a href="#">
+                                            Bozorboy Bozorov
+                                        </a>
+                                    </h1>
+                                    <p class="detail-comment_body">
+                                        Lorem ipsum dolor sit amet consectetur. A ut ut fringilla blandit ut leo posuere
+                                        vitae diam. Ac platea orci egestas lectus pellentesque arcu fames id quam. Lacus
+                                        consectetur volutpat id nec cursus. Luctus et condimentum adipiscing eu fusce.
+                                        Rutrum a bibendum at mi varius at ipsum. Proin non nibh iaculis massa enim
+                                        aliquet sapien. Consectetur dignissim a mattis amet donec sit libero. Urna quam
+                                        ac faucibus bibendum convallis condimentum eget feugiat lacus. Curabitur nunc
+                                        leo ullamcorper quam viverra a. Enim consectetur in at quam.
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <ul class="detail-comment_list">
+                                <li class="detail-comment_item">
+                                    <img src="./assets/image/user-avatar.png" alt="">
+                                </li>
+                                <li class="detail-comment_item">
+                                    <h1 class="detail-comment_author">
+                                        <a href="#">
+                                            Bozorboy Bozorov
+                                        </a>
+                                    </h1>
+                                    <p class="detail-comment_body">
+                                        Lorem ipsum dolor sit amet consectetur. A ut ut
+                                        fringilla blandit ut leo posuere
+                                        vitae diam. Ac platea orci egestas lectus
+                                        pellentesque arcu fames id quam. Lacus
+                                        consectetur volutpat id nec cursus. Luctus et
+                                        condimentum adipiscing eu fusce.
+                                        Rutrum a bibendum at mi varius at ipsum. Proin non
+                                        nibh iaculis massa enim
+                                        aliquet sapien. Consectetur dignissim a mattis amet
+                                        donec sit libero. Urna quam
+                                        ac faucibus bibendum convallis condimentum eget
+                                        feugiat lacus. Curabitur nunc
+                                        leo ullamcorper quam viverra a. Enim consectetur in
+                                        at quam.
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <ul class="detail-comment_list">
+                                <li class="detail-comment_item">
+                                    <img src="./assets/image/user-avatar.png" alt="">
+                                </li>
+                                <li class="detail-comment_item">
+                                    <h1 class="detail-comment_author">
+                                        <a href="#">
+                                            Bozorboy Bozorov
+                                        </a>
+                                    </h1>
+                                    <p class="detail-comment_body">
+                                        Lorem ipsum dolor sit amet consectetur. A ut ut
+                                        fringilla blandit ut leo posuere
+                                        vitae diam. Ac platea orci egestas lectus
+                                        pellentesque arcu fames id quam. Lacus
+                                        consectetur volutpat id nec cursus. Luctus et
+                                        condimentum adipiscing eu fusce.
+                                        Rutrum a bibendum at mi varius at ipsum. Proin non
+                                        nibh iaculis massa enim
+                                        aliquet sapien. Consectetur dignissim a mattis amet
+                                        donec sit libero. Urna quam
+                                        ac faucibus bibendum convallis condimentum eget
+                                        feugiat lacus. Curabitur nunc
+                                        leo ullamcorper quam viverra a. Enim consectetur in
+                                        at quam.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-lower_wrapper">
+                            <form action="" method="post">
+                                <h1 class="detail-form_heading">
+                                    Fikr bildirish formasi
+                                </h1>
+                                <label for="fullname">
+                                    Ism (to’liq holda)*
+                                </label>
+                                <input type="text" name="fullname" id="fullname">
+                                <label for="comment">Fikr matni</label>
+                                <textarea name="comment" id="comment"></textarea>
+                                <button>Yuborish</button>
+                            </form>
+
+                            <div class="detail-related_posts">
+                                <h1 class="detail-related_posts_heading">
+                                    Mavzuga oid maqolalar
+                                </h1>
+
+                                <div class="detail-related_post">
+                                    <a href="#">
+                                        <img src="./assets/image/related_post_img.png" alt="">
+                                    </a>
+                                    <div class="detail-related_post_info">
+                                        <a href="#">Python: map() funktsiyasi</a>
+                                        <p>
+                                            Python'dagi map() funksiyasi ko'rsatilgan takrorlanadigan va qaytarilgan
+                                            xarita ob'ektining barchai …
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="detail-related_post">
+                                    <a href="#">
+                                        <img src="./assets/image/related_post_img.png" alt="">
+                                    </a>
+                                    <div class="detail-related_post_info">
+                                        <a href="#">Python: map() funktsiyasi</a>
+                                        <p>
+                                            Python'dagi map() funksiyasi ko'rsatilgan
+                                            takrorlanadigan va qaytarilgan
+                                            xarita ob'ektining barchai …
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/detail.js"></script>
+</body>
+
+</html>

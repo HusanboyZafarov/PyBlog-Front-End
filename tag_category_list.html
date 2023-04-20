@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="pyblog bu Python va dasturlashga oid o’zbek tilidagi blog. Hozirda Python, Javascript, Dasturlash, Veb dasturlash ,Foundation va boshqa turkumlarga va o’nlab teglarga mansub maqolalar saytdan joy olgan.">
+    <meta name="keywords"
+        content="Dasturlash , Blog, Python , Payton, dasturchi, Javascript, maqola, yangilik, dastur,">
+    <meta property="og:title" content="Python va dasturlash blogi">
+    <meta property="og:site_name" content="pyblog.uz">
+    <meta property="og:url" content="https://pyblog.uz">
+    <meta property="og:description"
+        content="pyblog.uz bu python va dasturlashga oid o'zbek tilidagi sifatli maqola , tutoriallar berib boruvchi blog hisoblanadi.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://pyblog-front-end.netlify.app/assets/image/favicon.png">
+
+    <link rel="shortcut icon" href="./assets/image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>Pyblog - Python hamda dasturlash blogi</title>
+</head>
+
+<body>
+    <header>
+        <div class="section-wrapp">
+            <div class="container">
+                <ul class="header_nav_list">
+                    <li class="header_nav_item">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/image/logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="header_nav_item">
+                        <ul class="header_navigate_links">
+                            <li class="header_link">
+                                <a href="./index.html">Bosh sahifa </a>
+                            </li>
+                            <li class="header_link header_dropdown_category">
+                                <p>
+                                    Turkumlar
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </p>
+                            </li>
+                            <li class="header_link header_dropdown_tag">
+                                <p>
+                                    Teglar
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </p>
+                            </li>
+                            <li class="header_link">
+                                <a href="#">Hamkorlik</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="#">Aloqa</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header_nav_item">
+                        <ul class="header_settings_list">
+                            <li class="header_settings_item mobile">
+                                <a href="#">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                </a>
+                            </li>
+                            <li class="header_settings_item search">
+                                <!-- <form action="">
+                                    <input type="text" name="search_q" placeholder="Shu yerga yozasiz...">
+                                </form> -->
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                            <li class="header_settings_item menu mobile">
+                                <i class="fa-solid fa-bars"></i>
+                            </li>
+                            <li class="header_settings_item mode">
+                                <i class="fa-solid fa-moon"></i>
+                            </li>
+                            <li class="header_settings_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                                <!-- <div class="auth_opener">
+                                    <i class="fa-solid fa-user"></i>
+                                </div> -->
+                            </li>
+                        </ul>
+
+                        <!-- <ul class="header_trending_tags_cats">
+
+                            <li class="header_trending_heading">
+                                Ommabop mavzular
+                            </li>
+
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-html5"></i>
+                                    HMTML5
+                                </a>
+                            </li>
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-square-js"></i>
+                                    Javascript
+                                </a>
+                            </li>
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-css3"></i>
+                                    CSS3
+                                </a>
+                            </li>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-python"></i>
+                                    Python
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-mug"></i>
+                                    Dasturlash asoslari
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-gears"></i>
+                                    Back-end
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-node-js"></i>
+                                    NodeJS
+                                </a>
+                            </div>
+                        </ul> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="cat_detail-hero">
+            <div class="section-wrapp">
+                <div class="container">
+                    <ul class="cat_detail-hero_list">
+                        <li class="cat_detail-hero_item">
+                            <h1>
+                                <i class="fa-brands fa-python"></i>
+                                Python ga oid maqolalar.
+                            </h1>
+                            <p>
+                                Ushbu turkumga oid 23 ta maqola mavjud.
+                            </p>
+                        </li>
+                        <li class="cat_detail-hero_item">
+                            <a href="#" role="button">
+                                <i class="fa-solid fa-user-plus"></i>
+                                Obuna bo’lish
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-posts">
+            <div class="section-wrapp">
+                <div class="container">
+                    <div class="main-posts_wrapper">
+                        <div class="main-posts_sidebar">
+                            <div class="main-posts_sidebar_filter">
+                                <form action="">
+                                    <!-- Filter starts -->
+                                    <div class="main-posts_filter_wrapper">
+                                        <ul class="main-posts_sidebar_header">
+                                            <li class="main-posts_sidebar_item title">
+                                                Saralash
+                                            </li>
+                                            <li class="main-posts_sidebar_item icon">
+                                                <i class="fa-solid fa-sliders"></i>
+                                            </li>
+                                        </ul>
+
+                                        <!-- bu yerga class selected qoshish kerak onclick bolganida -->
+                                        <ul class="main-posts_sort_list_opener">
+                                            <li class="main-posts_sort_item_opener">
+                                                <i class="fa-solid fa-layer-group"></i>
+                                                Turkumlar
+                                            </li>
+                                            <li class="main-posts_sort_item_opener">
+                                                <i class="fa-solid fa-circle-chevron-down"></i>
+                                            </li>
+                                        </ul>
+                                        <!-- Bu Yerda Turkumlar bor ularni vue orqali chiqarib olasiz onclick bolganida SELECTED degan class qoshib qoyasiz -->
+                                        <ul class="main-posts_sort">
+                                            <li class="main-posts_sort_item">
+
+                                                <label for="python">
+                                                    <i class="fa-brands fa-python"></i>
+                                                    Python</label>
+                                                <input type="checkbox" name="python" id="python">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="javascript">
+                                                    <i class="fa-brands fa-square-js"></i>
+                                                    Javascript</label>
+                                                <input type="checkbox" name="javascript" id="javascript">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="HTML">
+                                                    <i class="fa-brands fa-html5"></i>
+                                                    HTML</label>
+                                                <input type="checkbox" name="HTML" id="HTML">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="CSS">
+                                                    <i class="fa-brands fa-css3-alt"></i>
+                                                    CSS</label>
+                                                <input type="checkbox" name="CSS" id="CSS">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="dasturlash">
+                                                    <i class="fa-solid fa-terminal"></i>
+                                                    Dasturlash</label>
+                                                <input type="checkbox" name="dasturlash" id="dasturlash">
+                                            </li>
+                                        </ul>
+
+                                        <!-- bu yerga class selected qoshish kerak onclick bolganida -->
+                                        <ul class="main-posts_sort_list_opener">
+                                            <li class="main-posts_sort_item_opener">
+                                                <i class="fa-solid fa-tags"></i>
+                                                Teglar
+                                            </li>
+                                            <li class="main-posts_sort_item_opener">
+                                                <i class="fa-solid fa-circle-chevron-down"></i>
+                                            </li>
+                                        </ul>
+                                        <!-- Bu Yerda filter bor ularni vue orqali chiqarib olasiz onclick bolganida SELECTED degan class qoshib qoyasiz -->
+                                        <ul class="main-posts_sort">
+                                            <li class="main-posts_sort_item">
+
+                                                <label for="python">
+                                                    <i class="fa-brands fa-python"></i>
+                                                    Python</label>
+                                                <input type="checkbox" name="python" id="python">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="javascript">
+                                                    <i class="fa-brands fa-square-js"></i>
+                                                    Javascript</label>
+                                                <input type="checkbox" name="javascript" id="javascript">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="HTML">
+                                                    <i class="fa-brands fa-html5"></i>
+                                                    HTML</label>
+                                                <input type="checkbox" name="HTML" id="HTML">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="CSS">
+                                                    <i class="fa-brands fa-css3-alt"></i>
+                                                    CSS</label>
+                                                <input type="checkbox" name="CSS" id="CSS">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="dasturlash">
+                                                    <i class="fa-solid fa-terminal"></i>
+                                                    Dasturlash</label>
+                                                <input type="checkbox" name="dasturlash" id="dasturlash">
+                                            </li>
+                                        </ul>
+
+                                        <!-- bu yerga class selected qoshish kerak onclick bolganida -->
+                                        <ul class="main-posts_sort_list_opener">
+                                            <li class="main-posts_sort_item_opener">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                Sana va vaqt bo’yicha
+                                            </li>
+                                            <li class="main-posts_sort_item_opener">
+                                                <i class="fa-solid fa-circle-chevron-down"></i>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Bu Yerda Turkumlar bor ularni vue orqali chiqarib olasiz onclick bolganida SELECTED degan class qoshib qoyasiz -->
+                                        <ul class="main-posts_sort">
+                                            <li class="main-posts_sort_item">
+
+                                                <label for="python">
+                                                    <i class="fa-brands fa-python"></i>
+                                                    Python</label>
+                                                <input type="checkbox" name="python" id="python">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="javascript">
+                                                    <i class="fa-brands fa-square-js"></i>
+                                                    Javascript</label>
+                                                <input type="checkbox" name="javascript" id="javascript">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="HTML">
+                                                    <i class="fa-brands fa-html5"></i>
+                                                    HTML</label>
+                                                <input type="checkbox" name="HTML" id="HTML">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="CSS">
+                                                    <i class="fa-brands fa-css3-alt"></i>
+                                                    CSS</label>
+                                                <input type="checkbox" name="CSS" id="CSS">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="dasturlash">
+                                                    <i class="fa-solid fa-terminal"></i>
+                                                    Dasturlash</label>
+                                                <input type="checkbox" name="dasturlash" id="dasturlash">
+                                            </li>
+                                        </ul>
+
+                                        <!-- bu yerga class selected qoshish kerak onclick bolganida -->
+                                        <ul class="main-posts_sort_list_opener">
+                                            <li class="main-posts_sort_item_opener">
+                                                <i class="fa-solid fa-book-open"></i>
+                                                Ko’p o’qilgan maqolalar
+                                            </li>
+                                            <li class="main-posts_sort_item_opener">
+                                                <i class="fa-solid fa-circle-chevron-down"></i>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Bu Yerda Turkumlar bor ularni vue orqali chiqarib olasiz onclick bolganida SELECTED degan class qoshib qoyasiz -->
+                                        <ul class="main-posts_sort">
+                                            <li class="main-posts_sort_item">
+
+                                                <label for="python">
+                                                    <i class="fa-brands fa-python"></i>
+                                                    Python</label>
+                                                <input type="checkbox" name="python" id="python">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="javascript">
+                                                    <i class="fa-brands fa-square-js"></i>
+                                                    Javascript</label>
+                                                <input type="checkbox" name="javascript" id="javascript">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="HTML">
+                                                    <i class="fa-brands fa-html5"></i>
+                                                    HTML</label>
+                                                <input type="checkbox" name="HTML" id="HTML">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="CSS">
+                                                    <i class="fa-brands fa-css3-alt"></i>
+                                                    CSS</label>
+                                                <input type="checkbox" name="CSS" id="CSS">
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <label for="dasturlash">
+                                                    <i class="fa-solid fa-terminal"></i>
+                                                    Dasturlash</label>
+                                                <input type="checkbox" name="dasturlash" id="dasturlash">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- Filter ends -->
+
+                                    <!-- Category starts -->
+                                    <div class="main-posts_filter_wrapper">
+                                        <ul class="main-posts_sidebar_header">
+                                            <li class="main-posts_sidebar_item title">
+                                                Turkumlar
+                                            </li>
+                                            <li class="main-posts_sidebar_item icon">
+                                                <i class="fa-solid fa-layer-group"></i>
+                                            </li>
+                                        </ul>
+                                        <ul class="main-posts_sort_tag">
+                                            <li class="main-posts_sort_item">
+                                                <a href="#">
+                                                    <i class="fa-brands fa-python"></i>
+                                                    Python
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <a href="#">
+                                                    <i class="fa-brands fa-square-js"></i>
+                                                    Javascript
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <a href="#">
+                                                    <i class="fa-brands fa-html5"></i>
+                                                    HTML
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <a href="#">
+                                                    <i class="fa-brands fa-css3-alt"></i>
+                                                    CSS
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_sort_item">
+                                                <a href="#">
+                                                    <i class="fa-solid fa-terminal"></i>
+                                                    Dasturlash
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- Category ends -->
+
+                                    <!-- Tags starts -->
+                                    <div class="main-posts_filter_wrapper">
+                                        <ul class="main-posts_sidebar_header">
+                                            <li class="main-posts_sidebar_item title">
+                                                Foydali teglar
+                                            </li>
+                                            <li class="main-posts_sidebar_item icon">
+                                                <i class="fa-solid fa-tags"></i>
+                                            </li>
+                                        </ul>
+                                        <ul class="main-posts_tag_list">
+                                            <li class="main-posts_tag_item">
+                                                <a href="#">
+                                                    <i class="fa-brands fa-html5"></i>
+                                                    HTML5
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_tag_item">
+                                                <a href="#">
+                                                    <i class="fa-brands fa-square-js"></i>
+                                                    Javascript
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_tag_item">
+                                                <a href="#">
+                                                    <i class="fa-brands fa-css3"></i>
+                                                    CSS3
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_tag_item">
+                                                <a href="#">
+                                                    <i class="fab fa-python"></i>
+                                                    Python
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_tag_item">
+                                                <a href="#">
+                                                    <i class="fa-solid fa-gears"></i>
+                                                    Back-end
+                                                </a>
+                                            </li>
+                                            <li class="main-posts_tag_item">
+                                                <a href="#">
+                                                    <i class="fa-solid fa-mug-saucer"></i>
+                                                    Dasturlash
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- Tags ends -->
+
+                                    <!-- Advertisement starts -->
+                                    <div class="main-posts_advertise_wrapper">
+                                        <img src="./assets/image/advertisement.png" alt="">
+                                        <h1>reklama matni sarlavhasi shu yerda boladi esdan chiqarmela</h1>
+                                        <p>reklama matni sarlavhasi shu yerda boladi esdan chiqarmela chiqarmel</p>
+                                        <a href="#" role="button">Batafsil</a>
+                                    </div>
+                                    <!-- Advertisement ends -->
+
+                                    <!-- Users starts -->
+                                    <div class="main-posts_filter_wrapper">
+                                        <ul class="main-posts_sidebar_header">
+                                            <li class="main-posts_sidebar_item title">
+                                                Foydalanuvchilar
+                                            </li>
+                                            <li class="main-posts_sidebar_item icon">
+                                                <i class="fa-solid fa-users"></i>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Top User starts -->
+                                        <ul class="main-user_info_list">
+                                            <li class="main-user_info_item">
+                                                <img src="./assets/image/main-user.png" alt="">
+                                                <div class="main-user_info_wrapper">
+                                                    <h1>
+                                                        <a href="#">
+                                                            Palonchi
+                                                            Pismadonchi
+                                                        </a>
+                                                    </h1>
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-user-plus"></i>
+                                                        Obuna bo’lish
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="main-user_info_item">
+                                                <img src="./assets/image/award-1.png" alt="">
+                                            </li>
+                                        </ul>
+                                        <!-- Top User Ends -->
+
+                                        <!-- Top User starts -->
+                                        <ul class="main-user_info_list">
+                                            <li class="main-user_info_item">
+                                                <img src="./assets/image/main-user.png" alt="">
+                                                <div class="main-user_info_wrapper">
+                                                    <h1>
+                                                        <a href="#">
+                                                            Palonchi
+                                                            Pismadonchi
+                                                        </a>
+                                                    </h1>
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-user-plus"></i>
+                                                        Obuna bo’lish
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="main-user_info_item">
+                                                <img src="./assets/image/award-2.png" alt="">
+                                            </li>
+                                        </ul>
+                                        <!-- Top User Ends -->
+
+
+                                        <!-- Top User starts -->
+                                        <ul class="main-user_info_list">
+                                            <li class="main-user_info_item">
+                                                <img src="./assets/image/main-user.png" alt="">
+                                                <div class="main-user_info_wrapper">
+                                                    <h1>
+                                                        <a href="#">
+                                                            Palonchi
+                                                            Pismadonchi
+                                                        </a>
+                                                    </h1>
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-user-plus"></i>
+                                                        Obuna bo’lish
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="main-user_info_item">
+                                                <img src="./assets/image/award-3.png" alt="">
+                                            </li>
+                                        </ul>
+                                        <!-- Top User Ends -->
+
+                                        <!-- Default User starts -->
+                                        <ul class="main-user_info_list">
+                                            <li class="main-user_info_item">
+                                                <img src="./assets/image/main-user.png" alt="">
+                                                <div class="main-user_info_wrapper">
+                                                    <h1>
+                                                        <a href="#">
+                                                            Palonchi Pismadonchi
+                                                        </a>
+                                                    </h1>
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-user-plus"></i>
+                                                        Obuna bo’lish
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <!-- Default User Ends -->
+                                    </div>
+                                    <!-- Users ends -->
+
+                                    <div class="main-tg_channel_qr_code">
+                                        <img src="./assets/image/qr_code.png" alt="">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <ul class="main-posts_list">
+                            <li class="main-posts_item border_shadow">
+                                <a href="./post_detail.html" class="main-posts_img_wrapper">
+                                    <img class="main-posts_item_img" src="./assets/image/main-posts.png" alt="">
+                                </a>
+
+                                <ul class="main-post_info_list">
+                                    <li class="main-post_info_item">
+                                        <ul class="main-post_top_info">
+                                            <li class="main-post_top_item prog_lang">
+                                                <i class="fa-solid fa-mug-saucer"></i>
+                                                Umumiy mavzu
+                                            </li>
+                                            <li>
+                                                <ul class="main-posts_top_list">
+                                                    <li class="main-post_top_item date">
+                                                        Aug 14, 2020
+                                                    </li>
+                                                    <li class="main-post_top_item views">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        145 marta
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-post_info_item title">
+                                        <a href="./post_detail.html">
+                                            💼 IT'dagi karyera: HR-menejer va rekruter (ishga qabul qiluvchi)
+                                            lavozimlari
+                                        </a>
+                                    </li>
+                                    <li class="main-post_info_item description">
+                                        IT Karyera turkumidagi yangi maqolamiz bilan tanishing. Turkumning ushbu qismida
+                                        biz HR menejeri va ishga yollovchi - rekruter, lavozimlarini ko'rib...
+                                    </li>
+                                    <li class="main-post_info_item emoji_wrapp">
+                                        <ul class="main-post_info_emoji_list">
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/thumb-up.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/heart.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/glasses.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/fire.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/dragon.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/popper.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                        </ul>
+
+                                        <span class="main-post_info_flame">
+                                            <img src="./assets/image/flame.png" alt="">
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="main-posts_item border_shadow">
+                                <a href="./post_detail.html" class="main-posts_img_wrapper">
+                                    <img class="main-posts_item_img" src="./assets/image/main-posts.png" alt="">
+                                </a>
+
+                                <ul class="main-post_info_list">
+                                    <li class="main-post_info_item">
+                                        <ul class="main-post_top_info">
+                                            <li class="main-post_top_item prog_lang">
+                                                <i class="fa-solid fa-mug-saucer"></i>
+                                                Umumiy mavzu
+                                            </li>
+                                            <li>
+                                                <ul class="main-posts_top_list">
+                                                    <li class="main-post_top_item date">
+                                                        Aug 14, 2020
+                                                    </li>
+                                                    <li class="main-post_top_item views">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        145 marta
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-post_info_item title">
+                                        <a href="./post_detail.html">
+                                            💼 IT'dagi karyera: HR-menejer va rekruter (ishga qabul qiluvchi)
+                                            lavozimlari
+                                        </a>
+                                    </li>
+                                    <li class="main-post_info_item description">
+                                        IT Karyera turkumidagi yangi maqolamiz bilan tanishing. Turkumning ushbu
+                                        qismida
+                                        biz HR menejeri va ishga yollovchi - rekruter, lavozimlarini ko'rib...
+                                    </li>
+                                    <li class="main-post_info_item emoji_wrapp">
+                                        <ul class="main-post_info_emoji_list">
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/thumb-up.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/heart.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/glasses.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/fire.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/dragon.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/popper.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                        </ul>
+
+                                        <span class="main-post_info_flame">
+                                            <img src="./assets/image/flame.png" alt="">
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="main-posts_item border_shadow">
+                                <a href="./post_detail.html" class="main-posts_img_wrapper">
+                                    <img class="main-posts_item_img" src="./assets/image/main-posts.png" alt="">
+                                </a>
+
+                                <ul class="main-post_info_list">
+                                    <li class="main-post_info_item">
+                                        <ul class="main-post_top_info">
+                                            <li class="main-post_top_item prog_lang">
+                                                <i class="fa-solid fa-mug-saucer"></i>
+                                                Umumiy mavzu
+                                            </li>
+                                            <li>
+                                                <ul class="main-posts_top_list">
+                                                    <li class="main-post_top_item date">
+                                                        Aug 14, 2020
+                                                    </li>
+                                                    <li class="main-post_top_item views">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        145 marta
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-post_info_item title">
+                                        <a href="./post_detail.html">
+                                            💼 IT'dagi karyera: HR-menejer va rekruter
+                                            (ishga qabul qiluvchi)
+                                            lavozimlari
+                                        </a>
+                                    </li>
+                                    <li class="main-post_info_item description">
+                                        IT Karyera turkumidagi yangi maqolamiz bilan
+                                        tanishing. Turkumning ushbu qismida
+                                        biz HR menejeri va ishga yollovchi - rekruter,
+                                        lavozimlarini ko'rib...
+                                    </li>
+                                    <li class="main-post_info_item emoji_wrapp">
+                                        <ul class="main-post_info_emoji_list">
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/thumb-up.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/heart.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/glasses.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/fire.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/dragon.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                            <li class="main-post_info_emoji_item">
+                                                <img src="./assets/image/popper.png" alt="">
+                                                <span>+110</span>
+                                            </li>
+                                        </ul>
+
+                                        <span class="main-post_info_flame">
+                                            <img src="./assets/image/flame.png" alt="">
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="section-wrapp">
+            <div class="container">
+                <a href="#">
+                    <img src="./assets/image/logo.svg" alt="">
+                </a>
+                <ul class="footer_list">
+                    <li class="footer_item">
+                        Python hamda dasturlashga oid o’zbek <br> tilidagi blog
+                    </li>
+                    <li class="footer_item">
+                        <ul class="footer_links">
+                            <li class="footer_links_item"><a href="#">Bosh sahifa</a></li>
+                            <li class="footer_links_item"><a href="#">Blog haqida</a></li>
+                            <li class="footer_links_item"><a href="#">Bog’lanish</a></li>
+                            <li class="footer_links_item"><a href="#">Kirish</a></li>
+                            <li class="footer_links_item"><a href="#">Ro’yhatdan o’tish</a></li>
+                            <li class="footer_links_item"><a href="#">Qonun qoidalar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="footer_socials_list">
+                    <a href="#">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+                <p class="footer_outer">
+                    <a href="#">pyblog.uz</a> by Abdurakhmon Rashidov created with <i class="fa-solid fa-heart"></i>
+                    akalar.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
