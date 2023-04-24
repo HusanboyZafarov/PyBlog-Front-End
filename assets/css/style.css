@@ -25,6 +25,42 @@
     src: url('../fonts/Poppins-Regular.ttf');
 }
 
+html.dark:root {
+    /* Colors */
+    --color-white: #27272A;
+    --color-black: #fff;
+    --color-light-gray-bg: #FFF7ED;
+    --color-dark: #DFE0E2;
+    --color-light-text-mode: #FFF7ED;
+    --color-dark-mode-text: #FDE68A;
+    --color-dark-mode-yellow: #FDE68A;
+    --color-blue: #3571A3;
+    --color-yellow: #FFDF76;
+    --color-light-mode-blue: #297D98;
+    --color-light-mode-yellow: #FDE68A;
+    --color-black-opacitied: #00000053;
+    --color-logo-orange: #E9CD68;
+    --color-logo-blue: #297D98;
+    --color-logo-dark: #303634;
+    --color-subtext: #585252;
+    --color-light-bg: #27272A;
+    --color-green: #22C55E;
+    --color-dark-blue: #2A3342;
+    --local-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+    /* Text Sizes */
+    --size-text-small: 14px;
+    --size-text: 16px;
+    --size-text-average: 18px;
+    --size-text-big: 20px;
+    --size-text-large: 24px;
+
+    /* Heading Sizes */
+    --size-heading-small: 26px;
+    --size-heading: 30px;
+    --size-heading-big: 36px;
+}
+
 :root {
     /* Colors */
     --color-white: #FFFFFF;
