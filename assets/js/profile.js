@@ -43,3 +43,31 @@ closer_wrapper.addEventListener("click", () => {
 setTimeout(() => {
     message.classList.add("closed")
 }, 2000)
+
+let form_bg_closer = document.querySelector(".auth-form_bg_closer")
+form_login = document.querySelector(".auth-form.login")
+form_register = document.querySelector(".auth-form.register")
+let auth_opener_login = document.querySelectorAll(".auth-form_opener")
+let auth_opener_register = document.querySelectorAll(".auth-form_opener_register")
+
+auth_opener_login.forEach(element => {
+    element.addEventListener("click", () => {
+        form_login.classList.add("opened")
+        form_register.classList.remove("opened")
+        form_bg_closer.classList.add("opened")
+    })
+})
+
+auth_opener_register.forEach(element => {
+    element.addEventListener("click", () => {
+        form_login.classList.remove("opened")
+        form_register.classList.add("opened")
+        form_bg_closer.classList.add("opened")
+    })
+})
+
+form_bg_closer.addEventListener("click", () => {
+    form_register.classList.remove("opened")
+    form_login.classList.remove("opened")
+    form_bg_closer.classList.remove("opened")
+})

@@ -153,6 +153,22 @@
         --size-heading: 30px;
         --size-heading-big: 36px;
     }
+
+    .profile-details_list {
+        flex-direction: column;
+    }
+
+    .profile-details_item,
+    .profile-top_info_list {
+        width: 100% !important;
+    }
+
+    .profile-user_artciles_wrapper,
+    .profile-subscribed_wrapper,
+    .profile-saved_posts_wrapper {
+        margin-top: 5%;
+    }
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -285,6 +301,10 @@
 
     .detail-post_wrapper {
         padding: 40px;
+    }
+
+    .profile-saved_post_item {
+        width: 100%;
     }
 }
 
@@ -477,6 +497,10 @@
         position: static;
         display: block;
     }
+
+    .auth-form {
+        padding: 26px 50px;
+    }
 }
 
 
@@ -546,6 +570,38 @@
     .cat_detail-hero_item h1 i {
         display: none;
     }
+
+    .profile-full_info_wrapper {
+        flex-direction: column;
+    }
+
+    .profile-subs_item {
+        width: 100%;
+    }
+
+    .profile-top_info_wrapper {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .profile-blockinfo {
+        width: 100%;
+    }
+
+    .profile-blockinfo h1 {
+        width: 100% !important;
+        display: block;
+    }
+
+    .auth-form {
+        padding: 26px 50px;
+        width: 90%;
+    }
+
+    .auth-form input[type="password"],
+    .auth-form input[type="text"] {
+        width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -611,6 +667,32 @@
     .header_settings_item i {
         font-size: var(--size-heading-small) !important;
     }
+
+    .profile-top_info_list {
+        flex-direction: column;
+    }
+
+    .profile-top_info_item:nth-child(2) {
+        margin: 0;
+    }
+
+    .profile-saved_post_item {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .profile-user_articles_wrapper img {
+        width: 9rem;
+    }
+
+    .auth-form {
+        padding: 50px 16px 20px 16px;
+        width: 90%;
+    }
+
+    .auth-form.register button {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -630,6 +712,10 @@
 
     .main-hero_item:nth-child(1) {
         margin-top: 0;
+    }
+
+    .profile-user_articles_wrapper img {
+        width: 7rem;
     }
 }
 
