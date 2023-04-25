@@ -150,7 +150,87 @@
         <div class="profile_edit">
             <div class="section-wrapp">
                 <div class="container">
-                    
+                    <div class="profile_edit_wrapper">
+                        <form action="" method="post">
+                            <div class="profile_edit-list">
+                                <div class="profile_edit-info_wrapper">
+                                    <h1 class="profile_edit-info_heading">
+                                        Shaxsiy ma’lumotlar
+                                    </h1>
+                                    <p class="profile_edit-info_text">Shaxsiy ma’lumotlaringizni iloji boricha to’liq va
+                                        aniq
+                                        to’ldirishga harakat
+                                        qiling bu
+                                        sizning maqolalaringizni
+                                        o’quvchilar uchun kerak. Ular ishonchi manbaadan ma’lumot o’qishayotganini his
+                                        qilishlari kerak.</p>
+                                    <div class="profile_edit-img_uploader">
+                                        <img class="profile_edit-img" src="./assets/image/profile_edit-img.png" alt="">
+                                        <label for="image_uploader"><i class="fa-solid fa-pen"></i></label>
+                                        <input type="file" name="image_uploader" id="image_uploader" accept="image/png, 
+                                                                                            image/jpeg, 
+                                                                                            image/jpg, 
+                                                                                            image/gif,
+                                                                                            image/bmp
+                                                                                            ">
+                                    </div>
+
+                                    <ul class="profile_edit-user_info_list">
+                                        <li class="profile_edit-user_info_item">
+                                            <label for="fullname">Ism-Familya (to’liq holda)</label>
+                                            <input type="text" name="fullname" id="fullname"
+                                                placeholder="Palonchi Pismadonchi">
+                                        </li>
+                                        <li class="profile_edit-user_info_item">
+                                            <label for="direction">Soha, yo’nalish</label>
+                                            <input type="text" name="direction" id="direction"
+                                                placeholder="Masalan : Front-End dasturchi">
+                                        </li>
+                                        <li class="profile_edit-user_info_item">
+                                            <label for="username">Username</label>
+                                            <input type="text" name="username" id="username" placeholder="@palonchi">
+                                        </li>
+                                        <li class="profile_edit-user_info_item">
+                                            <label for="technologies">Texnologiyalar</label>
+                                            <select name="technologies" id="technologies">
+                                                <option value="" selected style="display: none;">Texnologiyalarni
+                                                    tanlang
+                                                </option>
+                                                <option value="html">HTML</option>
+                                                <option value="css">CSS</option>
+                                                <option value="js">JS</option>
+                                            </select>
+                                        </li>
+                                        <li class="profile_edit-user_info_item">
+                                            <label for="email">Email pochta</label>
+                                            <input type="email" name="email" id="email"
+                                                placeholder="palonchi@gmail.com">
+                                        </li>
+                                        <li class="profile_edit-user_info_item">
+                                            <label for="region">Viloyat</label>
+                                            <select name="region" id="region">
+                                                <option value="" selected style="display: none;">Viloyatni tanlang
+                                                </option>
+                                                <option value="anjan">anjan</option>
+                                                <option value="anjan">anjan</option>
+                                                <option value="anjan">anjan</option>
+                                            </select>
+                                        </li>
+
+                                        <li class="profile_edit-user_info_item textarea">
+                                            <label for="about_user">Qisqacha o’zingiz haqida ma’lumot</label>
+                                            <textarea name="about_user" id="about_user">Matn....</textarea>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="profile_edit-info_wrapper">
+                                    1
+                                </div>
+                            </div>
+                            <button type="submit"><i class="fa-solid fa-user-pen"></i> Profilni tahrirlash</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

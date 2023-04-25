@@ -25,8 +25,7 @@
     src: url('../fonts/Poppins-Regular.ttf');
 }
 
-html.dark:root {
-    /* Colors */
+/* html.dark:root {
     --color-white: #27272A;
     --color-black: #fff;
     --color-light-gray-bg: #FFF7ED;
@@ -48,18 +47,16 @@ html.dark:root {
     --color-dark-blue: #2A3342;
     --local-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 
-    /* Text Sizes */
     --size-text-small: 14px;
     --size-text: 16px;
     --size-text-average: 18px;
     --size-text-big: 20px;
     --size-text-large: 24px;
 
-    /* Heading Sizes */
     --size-heading-small: 26px;
     --size-heading: 30px;
     --size-heading-big: 36px;
-}
+} */
 
 :root {
     /* Colors */
@@ -2027,5 +2024,155 @@ footer {
 }
 
 .profile-other_posts_wrapper a:hover {
+    background: var(--color-yellow);
+}
+
+.profile_edit {
+    padding-top: 140px;
+}
+
+.profile_edit_wrapper {
+    padding: 40px 50px;
+    background: var(--color-white);
+    box-shadow: var(--local-box-shadow);
+    border-radius: 16px;
+
+}
+
+.profile_edit-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_edit-info_wrapper {
+    width: 48%;
+}
+
+.profile_edit-img {
+    border-radius: 16px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.profile_edit-img_uploader {
+    position: relative;
+    display: inline;
+}
+
+.profile_edit-img_uploader label {
+    position: absolute;
+    right: 10px;
+    bottom: 16px;
+}
+
+.profile_edit-img_uploader label i {
+    color: var(--color-blue);
+    font-size: var(--size-text-big);
+    width: 40px;
+    height: 40px;
+    background: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile_edit-img_uploader label i:hover {
+    color: var(--color-dark);
+    background: var(--color-yellow);
+}
+
+.profile_edit-info_heading {
+    font-size: var(--size-text-large);
+    color: var(--color-dark);
+    font-family: 'Poppins m';
+}
+
+.profile_edit-info_text {
+    margin: 14px 0;
+    color: var(--color-subtext);
+    font-size: var(--size-text-small);
+}
+
+.profile_edit-user_info_item label {
+    display: block;
+    margin: 10px 0 6px 0;
+    width: 100%;
+    font-family: 'Poppins M';
+    font-size: var(--size-text-small);
+    color: var(--color-dark);
+    font-weight: normal;
+}
+
+.profile_edit-user_info_item input,
+.profile_edit-user_info_item select {
+    width: 100%;
+    padding: 11px 14px;
+    border: 2px solid #D5DAE1;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    outline: none;
+}
+
+.profile_edit-user_info_item input:focus,
+.profile_edit-user_info_item select:focus {
+    border: 2px solid var(--color-blue);
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    outline: none;
+}
+
+.profile_edit-user_info_item {
+    width: 48%;
+}
+
+.profile_edit-user_info_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile_edit-user_info_item.textarea {
+    width: 100%;
+}
+
+.profile_edit-user_info_item.textarea textarea {
+    min-width: 100%;
+    padding: 11px 14px;
+    border: 2px solid #D5DAE1;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    outline: none;
+    transition: none;
+    resize: vertical;
+    max-height: 500px;
+    min-height: 100px;
+}
+
+.profile_edit button {
+    margin-top: 30px;
+    border-radius: 10px;
+    background: var(--color-blue);
+    color: var(--color-white);
+    padding: 10px 18px;
+    border: none;
+}
+
+.profile_edit button i {
+    color: var(--color-white);
+}
+
+.profile_edit button:hover i {
+    color: var(--color-dark);
+}
+
+.profile_edit button:hover {
+    color: var(--color-dark);
+    transform: scale(0.9);
+    cursor: pointer;
     background: var(--color-yellow);
 }
