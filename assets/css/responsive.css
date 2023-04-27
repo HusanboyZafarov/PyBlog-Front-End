@@ -306,6 +306,14 @@
     .profile-saved_post_item {
         width: 100%;
     }
+
+    .profile_edit-info_wrapper {
+        width: 100%;
+    }
+
+    .profile_edit-info_wrapper:nth-of-type(2) {
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -501,6 +509,8 @@
     .auth-form {
         padding: 26px 50px;
     }
+
+
 }
 
 
@@ -602,6 +612,10 @@
     .auth-form input[type="text"] {
         width: 100% !important;
     }
+
+    .profile_edit_wrapper {
+        padding: 30px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -692,6 +706,22 @@
 
     .auth-form.register button {
         margin-bottom: 10px;
+    }
+
+    .profile_edit-user_info_item {
+        width: 100%;
+    }
+
+    .profile_edit {
+        padding-top: 100px;
+    }
+
+    .error_page-wrapper img {
+        width: 100%;
+    }
+
+    .error_page-wrapper {
+        padding: 50px 50px 80px 50px;
     }
 }
 
