@@ -2317,3 +2317,77 @@ input[type="file"] {
 .error-page_link:hover i {
     color: var(--color-dark);
 }
+
+.contact {
+    padding-top: 140px;
+}
+
+.contact-info_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info_card {
+    padding: 45px 120px;
+    box-shadow: var(--local-box-shadow);
+    background: var(--color-white);
+    border-radius: 16px;
+}
+
+.contact-info_heading {
+    font-size: var(--size-heading);
+    color: var(--color-dark);
+    font-family: 'Poppins M';
+    font-weight: normal;
+}
+
+.contact-info_subheading {
+    font-size: var(--size-text-large);
+    color: var(--color-dark);
+    font-family: 'Poppins M';
+    font-weight: normal;
+}
+
+.contact-info_text {
+    margin-top: 25px;
+    font-size: var(--size-text-big);
+    font-family: 'Poppins M';
+    color: var(--color-dark);
+}
+
+.contact-info_text a {
+    font-size: var(--size-text-big);
+    font-family: 'Poppins M';
+    margin-left: 10px;
+    color: var(--color-blue);
+}
+
+.contact-info_text a:hover {
+    color: var(--color-dark);
+}
+
+.contact-info_link_wrapper {
+    display: flex;
+    justify-content: start;
+    margin-top: 25px;
+}
+
+.contact-info_link_wrapper a {
+    width: 70px;
+    height: 70px;
+    box-shadow: var(--local-box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact-info_link_wrapper a:hover {
+    transform: scale(0.9);
+    background: var(--color-yellow);
+}
+
+.contact-info_link_wrapper a:nth-child(1) {
+    margin-left: 0;
+}

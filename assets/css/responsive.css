@@ -314,6 +314,14 @@
     .profile_edit-info_wrapper:nth-of-type(2) {
         margin-top: 5%;
     }
+
+    .contact-info_wrapper {
+        width: 100%;
+    }
+
+    .contact-info_card {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -400,6 +408,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .contact-info_card {
+        padding: 30px 50px;
     }
 }
 
@@ -616,6 +628,10 @@
     .profile_edit_wrapper {
         padding: 30px;
     }
+
+    .contact-info_card {
+        padding: 30px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -712,7 +728,8 @@
         width: 100%;
     }
 
-    .profile_edit {
+    .profile_edit,
+    .contact {
         padding-top: 100px;
     }
 
@@ -722,6 +739,15 @@
 
     .error_page-wrapper {
         padding: 50px 50px 80px 50px;
+    }
+
+    .contact-info_text a {
+        display: flex;
+        margin: 0;
+    }
+
+    .contact-info_link_wrapper a {
+        margin-left: 20px;
     }
 }
 
