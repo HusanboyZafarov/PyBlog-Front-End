@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="pyblog bu Python va dasturlashga oid o’zbek tilidagi blog. Hozirda Python, Javascript, Dasturlash, Veb dasturlash ,Foundation va boshqa turkumlarga va o’nlab teglarga mansub maqolalar saytdan joy olgan.">
+    <meta name="keywords"
+        content="Dasturlash , Blog, Python , Payton, dasturchi, Javascript, maqola, yangilik, dastur,">
+    <meta property="og:title" content="Python va dasturlash blogi">
+    <meta property="og:site_name" content="pyblog.uz">
+    <meta property="og:url" content="https://pyblog.uz">
+    <meta property="og:description"
+        content="pyblog.uz bu python va dasturlashga oid o'zbek tilidagi sifatli maqola , tutoriallar berib boruvchi blog hisoblanadi.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://pyblog-front-end.netlify.app/assets/image/favicon.png">
+
+    <link rel="shortcut icon" href="./assets/image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>Pyblog - Python hamda dasturlash blogi</title>
+</head>
+
+<body>
+    <header>
+        <div class="section-wrapp">
+            <div class="container">
+                <ul class="header_nav_list">
+                    <li class="header_nav_item">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/image/logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="header_nav_item">
+                        <ul class="header_navigate_links">
+                            <li class="header_link">
+                                <a href="./index.html">Bosh sahifa </a>
+                            </li>
+                            <li class="header_link header_dropdown_category">
+                                <p>
+                                    Turkumlar
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </p>
+                            </li>
+                            <li class="header_link header_dropdown_tag">
+                                <p>
+                                    Teglar
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </p>
+                            </li>
+                            <li class="header_link">
+                                <a href="#">Hamkorlik</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="#">Aloqa</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header_nav_item">
+                        <ul class="header_settings_list">
+                            <li class="header_settings_item mobile">
+                                <a href="#">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                </a>
+                            </li>
+                            <li class="header_settings_item search">
+                                <!-- <form action="">
+                                    <input type="text" name="search_q" placeholder="Shu yerga yozasiz...">
+                                </form> -->
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                            <li class="header_settings_item menu mobile">
+                                <i class="fa-solid fa-bars"></i>
+                            </li>
+                            <li class="header_settings_item mode">
+                                <i class="fa-solid fa-moon"></i>
+                            </li>
+                            <li class="header_settings_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                                <!-- <div class="auth_opener">
+                                    <i class="fa-solid fa-user"></i>
+                                </div> -->
+                            </li>
+                        </ul>
+
+                        <!-- <ul class="header_trending_tags_cats">
+
+                            <li class="header_trending_heading">
+                                Ommabop mavzular
+                            </li>
+
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-html5"></i>
+                                    HMTML5
+                                </a>
+                            </li>
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-square-js"></i>
+                                    Javascript
+                                </a>
+                            </li>
+                            <li class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-css3"></i>
+                                    CSS3
+                                </a>
+                            </li>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-python"></i>
+                                    Python
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-mug"></i>
+                                    Dasturlash asoslari
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-solid fa-gears"></i>
+                                    Back-end
+                                </a>
+                            </div>
+                            <div class="header_trending_item">
+                                <a href="#">
+                                    <i class="fa-brands fa-node-js"></i>
+                                    NodeJS
+                                </a>
+                            </div>
+                        </ul> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="rule">
+            <div class="section-wrapp">
+                <div class="container">
+                    <div class="rule-wrapper">
+                        <h1 class="rule-heading">
+                            Blogimizdan foydalanishdagi qonun qoidalar
+                        </h1>
+
+                        <h3 class="rule-small_heading">
+                            Foydalanuvchining majburiyatlari
+                        </h3>
+
+                        <ul class="rule-list">
+                            <li class="rule-item">
+                                1. Blog orqali shaxsning sha’ni va qadr-qimmatini kamsituvchi, pornografik mazmundagi,
+                                giyohvand moddalar, qurol
+                                tarqatilishiga va ularga bo‘lgan qiziqish oshishiga turtki bo‘ladigan, terrorizmning
+                                istalgan shaklini, har qanday
+                                noqonuniy faoliyatni ommalashishiga olib keladigan materiallarni blogga aloqador
+                                ijtimoiy tarmoqlarga yubormaslik.
+                            </li>
+                            <li class="rule-item">
+                                2. Shaxsiy ma’lulotlarini Blogga kiritishda (ro‘yxatdan o‘tishda) boshqa shaxslarni
+                                tahqirlovchi, haqoratlovchi, qo‘pol, zararli, tajovuzkor, g‘iybatli, tuxmat va behayo
+                                mazmunga ega bo‘lgan yoki huquqiy normalarni buzadigan ma’lumotlarni joylashtirmaslik
+                            </li>
+                            <li class="rule-item">
+                                3. Blogdagi o‘z shaxsiy ma’lumotlarini, shu jumladan shaxsiy kabinetga kirish uchun
+                                zarur bo‘lgan login va parolining platformaga kirish maqsadida foydalanilgan qurulmaning
+                                xavfsiz emasligi natijasida uchinchi shaxslarning ixtiyorida bo‘lib qolmasligini
+                                ta’minlash
+                            </li>
+                            <li class="rule-item">
+                                4. mazkur qoidalar va qonunda belgilangan majburiyatlar va xalqaro huquq me’yorlariga
+                                hurmat bilan munosabatda bo‘lish
+                            </li>
+                            <li class="rule-item">
+                                5. Muhokamalar va shaxsiy bloglarda boshqa shaxslarga nisbatan hurmat va odob
+                                normalarini saqlash.
+                            </li>
+                        </ul>
+
+                        <p class="rule-concept_text">
+                            Foydalanuvchi tomonidan yuqoridagi majburiyatlar bajarilmasligi yoki lozim darajada
+                            bajarilmasligi xizmat ko‘rsatuvchi
+                            tomonidan qonunda va ushbu qoidalarda belgilangan tartibda chora ko‘rilishiga sabab bo‘ladi.
+                        </p>
+
+                        <p class="rule-concept_text">
+                            Ushbu majburiyatlar qo’pol va ongli ravishda buzilgan holatlarda Moderatorlar yoki
+                            Administratsiya tomonidan qoida
+                            buzarning shaxsiy kabineti va unga oid materiallar blogdan o’chirishi , qolaversa jiddoy
+                            holatlarda huquqni himoya
+                            qiluvchi organlarga taqdim etilishi mumkin.
+                        </p>
+
+                        <h3 class="rule-small_heading">
+                            Foydalanuvchining majburiyatlari
+                        </h3>
+
+                        <ul class="rule-list">
+                            <li class="rule-item">
+                                1. Foydalanuvchilar uchun blogda belgilangan tartibda hizmat ko’rsatilishini ta’minlash
+                            </li>
+                            <li class="rule-item">
+                                2. Foydalanuvchilarning shaxsiy ma’lumotlarini uchunchi shaxslar qo’liga tushmasligini
+                                ta’minlash
+                            </li>
+                            <li class="rule-item">
+                                3. Intelektual mulkni hurmat qilish va mualliflik huquqlariga asosan blog faoliyatini
+                                yuritish
+                            </li>
+                        </ul>
+
+                        <h3 class="rule-small_heading">
+                            Umumiy tushunchalar
+                        </h3>
+
+                        <ul class="rule-list">
+                            <li class="rule-item">
+                                1. Blog Cookie fayllardan foydalanadi
+                            </li>
+                            <li class="rule-item">
+                                2. Foydalanuvchilar shaxsiy ma’lumotlarini istalgan vaqt o’zgartirishlari mumkin.
+                            </li>
+                            <li class="rule-item">
+                                3. Blog o’z imkoniyatlarini uzulishlarsiz va texnik xatolarsiz amalga oshirishi uchun
+                                foydalanuvchilar texnik soz bo’lgan
+                                va xavfsizligi ta’minlangan qurilamalardan foydalanishlari kerak.
+                            </li>
+                            <li class="rule-item">
+                                4. Foydalanuvchiga tavsiya etilgan internet tezligi 512kbs deb belgilangan.
+                            </li>
+                            <li class="rule-item">
+                                5. Blogda Intelektual mulkni hurmat qilish va mualliflik huquqlariga asosan blog
+                                faoliyatini
+                                yuritish
+                            </li>
+                            <li class="rule-item">
+                                6. Ro’yhatdan o’tgan foydalanuvchilar ushbu sahifada keltirilgan barcha qoidalarga
+                                roziligini
+                                bildiradi
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

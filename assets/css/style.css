@@ -2391,3 +2391,47 @@ input[type="file"] {
 .contact-info_link_wrapper a:nth-child(1) {
     margin-left: 0;
 }
+
+.rule {
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+
+.rule-wrapper {
+    padding: 30px;
+    background: var(--color-white);
+    box-shadow: var(--local-box-shadow);
+    border-radius: 16px;
+}
+
+.rule-heading {
+    font-family: 'Poppins M';
+    font-weight: normal;
+    color: var(--color-dark);
+    font-size: var(--size-heading);
+}
+
+.rule-small_heading {
+    font-family: 'Poppins M';
+    font-weight: normal;
+    color: var(--color-dark);
+    font-size: var(--size-text-large);
+    margin-top: 34px;
+}
+
+.rule-item {
+    margin-top: 15px;
+    color: var(--color-dark);
+}
+
+.rule-list {
+    margin-left: 60px;
+}
+
+.rule-concept_text {
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: var(--size-text-big);
+    color: var(--color-dark);
+    font-family: 'Poppins M';
+}

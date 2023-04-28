@@ -632,6 +632,19 @@
     .contact-info_card {
         padding: 30px;
     }
+
+    .rule-list {
+        margin-left: 30px;
+    }
+
+    .rule-concept_text {
+        margin-left: 0;
+        font-size: var(--size-text-average);
+    }
+
+    .rule-small_heading {
+        margin-top: 24px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -649,8 +662,9 @@
         --size-heading-big: 30px;
     }
 
-    .main-hero {
-        padding-top: 80px;
+    .main-hero,
+    .rule {
+        padding-top: 100px;
     }
 
     .footer_links_item {
@@ -748,6 +762,14 @@
 
     .contact-info_link_wrapper a {
         margin-left: 20px;
+    }
+
+    .rule-list {
+        margin-left: 10px;
+    }
+
+    .rule-small_heading {
+        margin-top: 24px;
     }
 }
 
