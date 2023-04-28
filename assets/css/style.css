@@ -468,6 +468,11 @@ header.scrolled {
     position: relative;
 }
 
+.main-hero_slide_emoji_item:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
 .main-hero_slide_emoji_item span {
     color: var(--color-blue);
     position: absolute;
@@ -518,20 +523,16 @@ header.scrolled {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: var(--color-blue);
     box-shadow: var(--local-box-shadow);
 }
 
-.main-hero_slide_emoji_wrapp a i {
-    font-size: var(--size-text-large);
-}
-
 .main-hero_slide_emoji_wrapp a:hover {
-    background: var(--color-yellow);
+    background: var(--color-blue);
 }
 
-.main-hero_slide_emoji_wrapp a:hover i {
-    color: var(--color-dark);
+
+.main-animated_link_img {
+    transform: rotateY(180deg) rotateZ(-90deg);
 }
 
 .main-posts {
@@ -2434,4 +2435,9 @@ input[type="file"] {
     font-size: var(--size-text-big);
     color: var(--color-dark);
     font-family: 'Poppins M';
+}
+
+.main-animated_img {
+    width: 25px;
+    height: 25px;
 }
