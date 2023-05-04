@@ -459,8 +459,8 @@ header.scrolled {
 .main-hero_slide_emoji_item {
     width: 40px;
     height: 40px;
-    background: var(--color-white);
-    box-shadow: var(--local-box-shadow);
+    /* background: var(--color-white); */
+    /* box-shadow: var(--local-box-shadow); */
     border-radius: 50%;
     display: flex;
     justify-content: center;
